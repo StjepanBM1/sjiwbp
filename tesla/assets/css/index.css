@@ -1,0 +1,54 @@
+
+body {
+    background-image: url("/assets/img/bg.svg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 16px 16px 16px 16px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 120px 32px 120px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+hr {
+    width: 1200px;
+    border: 1px solid white;
+}
+
+.gornji_davao {
+    text-align: center;
+}
+
+.donji_davao {
+    padding-right: 120px;
+    padding-left: 120px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#button_popunjen {
+    color: black;
+    font-size: larger;
+    padding: 1% 1% 1% 1%;
+    border: 2px solid white;
+}
+
+#button_proziraca {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 1% 1% 1% 1%;
+}
