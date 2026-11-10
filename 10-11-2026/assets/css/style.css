@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.maxw {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+/* glavna sranja */
+body {
+    background-color: #2B2C2C;
+    font-family: Poppins, sans-serif;
+}
+
+header {
+    margin-top: 20px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    height: 92px;
+    align-items: center;
+}
+
+nav {
+    display: inherit;
+    column-gap: 42px;
+}
+
+.proziraca {
+    background-color: transparent;
+    border-radius: 4px;
+    border: 2px solid #FEB633;
+
+    color: #FEB633;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 175% */
+
+    padding: 15px 70px 15px 70px;
+}
+
+.popunjeno {
+    background-color: #FEB633;
+    border-radius: 4px;
+    border: 2px solid #FEB633;
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 175% */
+
+    padding: 15px 70px 15px 70px;
+}
+
+/* headeri */
+h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 90px; /* 150% */
+    letter-spacing: 0.72px;
+}
+
+h2 {
+    color: #CCC;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px; /* 120% */
+}
+
+h6 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 214.286% */
+    letter-spacing: 1.05px;
+}
+
+/* tekstovne gluposti */ 
+a {
+    color: white;
+    text-decoration: inherit;
+}
+
+p {
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+}
+
+span {
+    color: #FEB633;
+}
+
+/* str 1 */
+.hero-1 {
+    margin-top: 100px;
+}
+
+.hero-1-left {
+    margin-top: 155px;
+}
